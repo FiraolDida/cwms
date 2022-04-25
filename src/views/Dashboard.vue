@@ -1,11 +1,12 @@
 <template>
-  <h1>Dashboard</h1>
+  <SidebarVue title="Dashboard">
+    
+  </SidebarVue>
 </template>
 
-<script>
-export default {
+<script setup>
+import SidebarVue from '../components/Sidebar.vue';
 
-}
 </script>
 
 <style>
